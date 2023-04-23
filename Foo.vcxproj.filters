@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\public">
+      <UniqueIdentifier>{970a4edf-fbfe-4842-a2f8-e079e1dabd31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lua_api">
+      <UniqueIdentifier>{8860d92e-7f00-4a09-b536-cb58851ba0fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AppRunner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glhf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gltypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SpriteRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EventDispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua_api\_common.cpp">
+      <Filter>Source Files\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua_api\Events.cpp">
+      <Filter>Source Files\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lua.cpp">
+      <Filter>Source Files\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua_api\ethread.cpp">
+      <Filter>Source Files\lua_api</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua_api\seq.cpp">
+      <Filter>Source Files\lua_api</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\App.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Clock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AppRunner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glhf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Foo\Time.h">
+      <Filter>Header Files\public</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Foo\graphics\gltypes.h">
+      <Filter>Header Files\public</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Foo\graphics\Image.h">
+      <Filter>Header Files\public</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Foo\graphics\Texture.h">
+      <Filter>Header Files\public</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Foo\rect.h">
+      <Filter>Header Files\public</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Foo\tmp.h">
+      <Filter>Header Files\public</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Foo\graphics\gltypes_ext.h">
+      <Filter>Header Files\public</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Foo\graphics\Shader.h">
+      <Filter>Header Files\public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SpriteRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\luautil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Foo\graphics\Buffer.h">
+      <Filter>Header Files\public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\event_traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EventDispatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EventListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua_api\_common.h">
+      <Filter>Source Files\lua_api</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua_api\sentinel.h">
+      <Filter>Source Files\lua_api</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua_api\_sentinel_debug.h">
+      <Filter>Source Files\lua_api</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua_api\_sentinel_release.h">
+      <Filter>Source Files\lua_api</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua_api\Events.h">
+      <Filter>Source Files\lua_api</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Lua.h">
+      <Filter>Source Files\lua_api</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua_api\ethread.h">
+      <Filter>Source Files\lua_api</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua_api\seq.h">
+      <Filter>Source Files\lua_api</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua_api\Header.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua_api\plua.h">
+      <Filter>Source Files\lua_api</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EventBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+cl /std:c++20 /EHsc test.cpp && test.exe

@@ -1,0 +1,33 @@
+{
+    "rdocCaptureSettings": 1,
+    "settings": {
+        "autoStart": false,
+        "commandLine": "",
+        "environment": [
+            {
+                "separator": "Platform style",
+                "type": "Append",
+                "value": "C:\\Users\\nyksn\\source\\vs\\vcpkg\\installed\\x64-windows\\bin",
+                "variable": "PATH"
+            }
+        ],
+        "executable": "C:\\Users\\nyksn\\source\\repos\\Foo\\x64\\Debug\\Foo.exe",
+        "inject": false,
+        "numQueuedFrames": 0,
+        "options": {
+            "allowFullscreen": true,
+            "allowVSync": true,
+            "apiValidation": true,
+            "captureAllCmdLists": false,
+            "captureCallstacks": false,
+            "captureCallstacksOnlyDraws": false,
+            "debugOutputMute": true,
+            "delayForDebugger": 0,
+            "hookIntoChildren": false,
+            "refAllResources": false,
+            "verifyBufferAccess": true
+        },
+        "queuedFrameCap": 0,
+        "workingDir": "C:/Users/nyksn/source/repos/Foo"
+    }
+}

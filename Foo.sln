@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Foo", "Foo.vcxproj", "{BAECDD78-A60C-407B-B550-697A62E14091}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		DLL|x64 = DLL|x64
+		DLL|x86 = DLL|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAECDD78-A60C-407B-B550-697A62E14091}.Debug|x64.ActiveCfg = Debug|x64
+		{BAECDD78-A60C-407B-B550-697A62E14091}.Debug|x64.Build.0 = Debug|x64
+		{BAECDD78-A60C-407B-B550-697A62E14091}.Debug|x86.ActiveCfg = Debug|Win32
+		{BAECDD78-A60C-407B-B550-697A62E14091}.Debug|x86.Build.0 = Debug|Win32
+		{BAECDD78-A60C-407B-B550-697A62E14091}.DLL|x64.ActiveCfg = Release|x64
+		{BAECDD78-A60C-407B-B550-697A62E14091}.DLL|x86.ActiveCfg = DLL|Win32
+		{BAECDD78-A60C-407B-B550-697A62E14091}.DLL|x86.Build.0 = DLL|Win32
+		{BAECDD78-A60C-407B-B550-697A62E14091}.Release|x64.ActiveCfg = Release|x64
+		{BAECDD78-A60C-407B-B550-697A62E14091}.Release|x64.Build.0 = Release|x64
+		{BAECDD78-A60C-407B-B550-697A62E14091}.Release|x86.ActiveCfg = Release|Win32
+		{BAECDD78-A60C-407B-B550-697A62E14091}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6A44C69-F8DB-40C8-9944-D596D71AA32A}
+	EndGlobalSection
+EndGlobal

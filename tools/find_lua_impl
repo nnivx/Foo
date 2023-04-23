@@ -1,0 +1,3 @@
+#!/bin/sh
+
+rg --type-add "c:*.c" -tc -F "lua_createtable"
